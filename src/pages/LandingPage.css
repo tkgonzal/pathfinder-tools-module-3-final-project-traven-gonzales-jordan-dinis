@@ -1,12 +1,12 @@
 .landing--rows{
     padding-top: 1rem;
-    max-width: 90vw;
+    width: 90vw;
 }
 .hero--img{
-    width: 70%;
+    width: 30%;
 }
 .info--blurb--img{
-    width: 50%;
+    width: 30%;
 }
 .call--to--action{
     background-image: url("../assets/example.png");
