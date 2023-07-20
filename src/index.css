@@ -1,0 +1,15 @@
+:root{
+    --body-bg-color: #D1C09F;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    width: 100vw;
+    background-color: var(--body-bg-color, blue);
+    color: var(--body-txt-color, black)
+}
+
+h1, h2 {
+    font-family: "Bebas Neue", cursive;
+    margin: 0;
+}

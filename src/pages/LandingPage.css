@@ -1,0 +1,19 @@
+.landing--rows{
+    padding-top: 1rem;
+    max-width: 90vw;
+}
+.hero--img{
+    width: 70%;
+}
+.info--blurb--img{
+    width: 50%;
+}
+.call--to--action{
+    background-image: url("../assets/example.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: 0 auto;
+    width: 90%;
+    height: 60rem;
+}

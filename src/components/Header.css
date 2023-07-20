@@ -1,0 +1,46 @@
+:root{
+    --logo-txt-color: #f3ce95;
+    --logo-bg-color: #3f0404;
+}
+header{
+    width: 100%;
+}
+nav{
+    width: 100%;
+}
+ul{
+    padding: 0px;
+    list-style: none;
+}
+
+/* Header Styles */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    gap: .3rem;
+    background-color: var(--logo-bg-color, red);
+    /* box-shadow: -1px -7px 10px 14px rgba(var(--logo-box-shadow-rgb),1); */
+    /* border-bottom: .25rem solid var(--outline, black); */
+}
+
+.logo--txt {
+    margin: 0;
+    font-size: 3rem;
+    color: var(--logo-txt-color, red);
+    letter-spacing: .2rem;
+}
+
+.logo--img {
+    width: 5rem;
+    height: 4.5rem;
+}
+
+
+.nav--links li{
+    margin:none;
+}
+.nav--links li a{
+    color: var(--logo-txt-color, red) !important;
+}
