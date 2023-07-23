@@ -2,12 +2,34 @@
     padding-top: 1rem;
     width: 90vw;
 }
+
 .hero--img{
     width: 30%;
 }
+.hero--blurb{
+    text-align: left;
+    width:50%;
+    padding:2rem;
+}
+.hero--blurb h1{
+    font-size: 5rem;
+}
+.btn--link{
+    width:5rem;
+}
+
 .info--blurb--img{
     width: 30%;
 }
+.info--blurb{
+    text-align: left;
+    width:50%;
+    padding:2rem;
+}
+.info--benefits{
+    text-align: left;
+}
+
 .call--to--action{
     background-image: url("../assets/example.png");
     background-size: 100%;
@@ -16,4 +38,13 @@
     margin: 0 auto;
     width: 90%;
     height: 60rem;
+}
+.cta--blurb{
+    background-color: hsla(0, 0%, 30%, 0.516);
+    width: 100%;
+    height: 100%;
+}
+.cta--text{
+    font-size: 8rem;
+    text-align: center;
 }
