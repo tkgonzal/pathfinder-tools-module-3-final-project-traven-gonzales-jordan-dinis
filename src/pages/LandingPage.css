@@ -3,6 +3,10 @@
     width: 90vw;
 }
 
+.lp-container {
+    overflow-x: hidden;
+}
+
 .hero--img{
     width: 30%;
 }

@@ -8,18 +8,18 @@ import EncounterCalculatorApp from "./pages/EncounterCalculatorApp"
 
 import "./App.css"
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: LandingPage()
-  },
-  {
-    path: "encounter-calculator",
-    element: EncounterCalculatorApp()
-  }
-])
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: LandingPage()
+    },
+    {
+      path: "encounter-calculator",
+      element: EncounterCalculatorApp()
+    }
+  ])
   return (
     <div className="main">
       <RouterProvider router={router} />

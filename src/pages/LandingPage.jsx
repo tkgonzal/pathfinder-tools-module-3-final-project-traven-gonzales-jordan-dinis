@@ -9,12 +9,12 @@ function LandingPage() {
     return (
         <div>
             <Header />
-            <div className="Container w-100 d-flex flex-column align-items-center">
+            <div className="lp-container w-100 d-flex flex-column align-items-center">
                 <div className="d-flex flex-row justify-content-evenly landing--rows">
-                    <img className = "hero--img" src = {heroImg}></img>
+                    <img className="hero--img" src={heroImg}></img>
                     <div className="hero--blurb d-flex flex-column">
                         <h1>Tools to make GMing easy</h1>
-                        <Link to ={`/encounter-calculator`}> 
+                        <Link to={`/encounter-calculator`}>
                             <button className="btn--link">Try Now</button>
                         </Link>
                     </div>
@@ -29,20 +29,20 @@ function LandingPage() {
                             <li>Complete Calculation of all permutations</li>
                         </ul>
                     </div>
-                    <img className = "info--blurb--img" src = {infoImg}></img>
+                    <img className="info--blurb--img" src={infoImg}></img>
                 </div>
                 <div className="w-100 d-flex flex-row justify-content-evenly landing--rows">
                     <div className="call--to--action">
                         <div className="cta--blurb d-flex flex-column align-items-center justify-content-center">
                             <h1 className="cta--text">What are you waiting for, try Now</h1>
-                            <Link to ={`/encounter-calculator`}> 
+                            <Link to={`/encounter-calculator`}>
                                 <button className="btn--link">Try Now</button>
                             </Link>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
         </div>
     )
 }
