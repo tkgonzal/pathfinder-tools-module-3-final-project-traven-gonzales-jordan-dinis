@@ -20,6 +20,7 @@ function App() {
       element: EncounterCalculatorApp()
     }
   ])
+
   return (
     <div className="main">
       <RouterProvider router={router} />

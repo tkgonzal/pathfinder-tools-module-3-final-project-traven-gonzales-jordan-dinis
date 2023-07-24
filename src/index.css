@@ -27,7 +27,8 @@ body {
     margin: 0;
     width: 100vw;
     background-color: var(--body-bg-color, blue);
-    color: var(--body-txt-color, black)
+    color: var(--body-txt-color, black);
+    overflow-x: hidden;
 }
 
 h1, h2 {

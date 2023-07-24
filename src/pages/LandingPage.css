@@ -7,8 +7,18 @@
     overflow-x: hidden;
 }
 
-.hero--img{
-    width: 30%;
+.lp-container h2 {
+    letter-spacing: .2rem;
+}
+
+.hero--blurb h2{
+    font-size: 5rem;
+}
+
+.hero--img, .info--blurb--img {
+    object-fit: cover;
+    max-height: 30rem;
+    width: 70%;
 }
 .hero--blurb{
     text-align: left;
@@ -18,13 +28,7 @@
 .hero--blurb h1{
     font-size: 5rem;
 }
-.btn--link{
-    width:5rem;
-}
 
-.info--blurb--img{
-    width: 30%;
-}
 .info--blurb{
     text-align: left;
     width:50%;
@@ -36,19 +40,44 @@
 
 .call--to--action{
     background-image: url("../assets/example.png");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
     margin: 0 auto;
     width: 90%;
     height: 60rem;
+    border: 0.125rem solid var(--outline-color, #000);
 }
 .cta--blurb{
-    background-color: hsla(0, 0%, 30%, 0.516);
-    width: 100%;
-    height: 100%;
+    background-color: #ffffffd0;
+    width: 80%;
+}
+
+.cta--blurb p {
+    font-size: 1.3rem;
 }
 .cta--text{
     font-size: 8rem;
     text-align: center;
+}
+
+.cta--btn {
+    border: none;
+    border-radius: 0.3125rem;
+    font-family: "Bebas Neue", cursive;
+    font-size: 2rem;
+    padding: .25rem .5rem .125rem;
+    background-color: var(--submit-btn-bg-color, gold);
+    color: var(--submit-btn-color, red);
+    cursor: pointer;
+    border: 0.12rem solid var(--outline-color, black);
+}
+
+li em, p i {
+    font-weight: 700;
+}
+
+.cta--btn:hover {
+    background-color: var(--submit-btn-bg-hover-color, yellow);
+    color: var(--submit-btn-hover-color, pink);
 }

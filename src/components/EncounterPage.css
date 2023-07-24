@@ -27,7 +27,7 @@
     overflow-y: auto;
 }
 
-nav {
+.encounter-page--nav {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -35,11 +35,16 @@ nav {
     gap: 0.25rem;
 }
 
-nav img {
+.encounter-page--nav button  {
+    border-radius: 0.3175rem;
+    border: 0.0625rem solid var(--outline-color, #000);
+}
+
+.encounter-page--nav button img {
     height: 1rem;
 }
 
-nav span {
+.encounter-page--nav  span {
     font-size: 1.2rem;
     font-weight: 700;
 }
