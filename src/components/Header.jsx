@@ -4,6 +4,11 @@ import logoImg from "../assets/favicon.png"
 
 import "./Header.css"
 
+/**
+ * @returns {ReactComponentElement} The Header component,
+ * provides the main brandin of the website and the navlinks
+ * to view the different pages on the website
+ */
 function Header() {
     return (
         <header className="d-flex flex-column align-items-center logo">

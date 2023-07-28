@@ -8,7 +8,10 @@ import EncounterCalculatorApp from "./pages/EncounterCalculatorApp"
 
 import "./App.css"
 
-
+/**
+ * @returns {ReactComponentElement} The main app component,
+ * contains the logic for the multi-page routing
+ */
 function App() {
   const router = createBrowserRouter([
     {

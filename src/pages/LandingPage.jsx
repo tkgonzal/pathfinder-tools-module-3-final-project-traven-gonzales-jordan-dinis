@@ -2,14 +2,18 @@ import Header from "../components/Header"
 import heroImg from "../assets/hero.png"
 import infoImg from "../assets/info_blurb.jpg"
 
-import { Outlet, Link } from "react-router-dom"
+import { Link } from "react-router-dom"
 import "./LandingPage.css"
 
+/**
+ * @returns {ReactComponentElement} The landing page for the website
+ */
 function LandingPage() {
     return (
         <div>
             <Header />
             <div className="lp-container w-100 d-flex flex-column align-items-center">
+                {/* Hero */}
                 <div className="d-flex flex-row justify-content-evenly landing--rows">
                     <img className="hero--img" src={heroImg}></img>
                     <div className="hero--blurb d-flex flex-column">
@@ -19,6 +23,8 @@ function LandingPage() {
                         </Link>
                     </div>
                 </div>
+
+                {/* Info/About Blurb */}
                 <div className="d-flex flex-row justify-content-evenly landing--rows">
                     <div className="info--blurb d-flex flex-column ">
                         <h2>What does <i>Pathfinder Tools</i> offer?</h2>
@@ -39,6 +45,8 @@ function LandingPage() {
                     </div>
                     <img className="info--blurb--img" src={infoImg}></img>
                 </div>
+
+                {/* Call to Action */}
                 <div className="w-100 d-flex flex-row justify-content-evenly landing--rows mb-5">
                     <div className="call--to--action d-flex align-items-center justify-content-center">
                         <div className="cta--blurb d-flex flex-column align-items-center p-4 gap-4">

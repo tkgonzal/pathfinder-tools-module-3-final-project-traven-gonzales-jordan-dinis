@@ -7,6 +7,11 @@ import EncounterPage from "../components/EncounterPage.jsx"
 import useCalcInput from "../hooks/useCalcInput.jsx"
 import useEncounterDisplay from "../hooks/useEncounterDisplay.jsx"
 
+/**
+ * @returns {ReactComponentElement} The content for the EncounterCalculator
+ * page/app. A conversion of the main App component from our final project
+ * for module 2
+ */
 function EncounterCalculatorApp() {
     // State Variables and Functions
     const {
