@@ -43,12 +43,12 @@ function LandingPage() {
                             <li><em>Complete Calculation of all Permutations of Possible Encounters</em></li>
                         </ul>
                     </div>
-                    <img className="info--blurb--img" src={infoImg}></img>
+                    <img className="info-blurb--img" src={infoImg}></img>
                 </div>
 
                 {/* Call to Action */}
                 <div className="w-100 d-flex flex-row justify-content-evenly landing--rows mb-5">
-                    <div className="call--to--action d-flex align-items-center justify-content-center">
+                    <div className="call-to-action d-flex align-items-center justify-content-center">
                         <div className="cta--blurb d-flex flex-column align-items-center p-4 gap-4">
                             <h2 className="cta--text">Get Started Playing Now!</h2>
                             <p>Hop into encounter creation for your next session with our <i>Encounter Calculator</i> now!</p>

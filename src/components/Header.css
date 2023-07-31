@@ -33,13 +33,15 @@ nav{
     height: 4.5rem;
 }
 
-.nav--links{
+.nav--links {
     padding: 0px;
     list-style: none;
 }
+
 .nav--links li{
     margin:none;
 }
-.nav--links li a{
+
+.nav--links li a {
     color: var(--logo-txt-color, red) !important;
 }

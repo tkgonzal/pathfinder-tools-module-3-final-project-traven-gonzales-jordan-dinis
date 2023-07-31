@@ -11,34 +11,37 @@
     letter-spacing: .2rem;
 }
 
-.hero--blurb h2{
+.hero--blurb h2 {
     font-size: 5rem;
 }
 
-.hero--img, .info--blurb--img {
+.hero--img, .info-blurb--img {
     object-fit: cover;
     max-height: 30rem;
     width: 70%;
 }
-.hero--blurb{
+
+.hero--blurb {
     text-align: left;
     width:50%;
     padding:2rem;
 }
-.hero--blurb h1{
+
+.hero--blurb h1 {
     font-size: 5rem;
 }
 
-.info--blurb{
+.info--blurb {
     text-align: left;
     width:50%;
     padding:2rem;
 }
-.info--benefits{
+
+.info--benefits { 
     text-align: left;
 }
 
-.call--to--action{
+.call-to-action {
     background-image: url("../assets/example.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -48,7 +51,8 @@
     height: 60rem;
     border: 0.125rem solid var(--outline-color, #000);
 }
-.cta--blurb{
+
+.cta--blurb {
     background-color: #ffffffd0;
     width: 80%;
 }
@@ -56,7 +60,8 @@
 .cta--blurb p {
     font-size: 1.3rem;
 }
-.cta--text{
+
+.cta--text {
     font-size: 8rem;
     text-align: center;
 }
@@ -73,11 +78,11 @@
     border: 0.12rem solid var(--outline-color, black);
 }
 
-li em, p i {
-    font-weight: 700;
-}
-
 .cta--btn:hover {
     background-color: var(--submit-btn-bg-hover-color, yellow);
     color: var(--submit-btn-hover-color, pink);
+}
+
+em, p i {
+    font-weight: 700;
 }
