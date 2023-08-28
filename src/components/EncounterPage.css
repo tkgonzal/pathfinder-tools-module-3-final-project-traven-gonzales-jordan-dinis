@@ -57,3 +57,9 @@
         text-align: center;
     }
 }
+
+@media (max-width: 410px) {
+    .encounter-page {
+        width: 100%;
+    }
+}
