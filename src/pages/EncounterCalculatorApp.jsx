@@ -53,7 +53,6 @@ function EncounterCalculatorApp() {
 
     return (
         <main className="ec-container">
-            <Header />
             <InfoBar />
             <CalculatorForm
                 calcInput={calcInput}

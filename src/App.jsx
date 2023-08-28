@@ -1,8 +1,6 @@
-import {
-  createBrowserRouter,
-  RouterProvider
-} from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
 
+import Header from "./components/Header"
 import LandingPage from "./pages/LandingPage"
 import EncounterCalculatorApp from "./pages/EncounterCalculatorApp"
 
@@ -13,20 +11,16 @@ import "./App.css"
  * contains the logic for the multi-page routing
  */
 function App() {
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: LandingPage()
-    },
-    {
-      path: "encounter-calculator",
-      element: EncounterCalculatorApp()
-    }
-  ])
-
   return (
     <div className="main">
-      <RouterProvider router={router} />
+      <Header />
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route 
+          path="/encounter-calculator" 
+          element={<EncounterCalculatorApp />} 
+        />
+      </Routes>
     </div>
   )
 }

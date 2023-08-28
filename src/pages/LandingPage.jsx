@@ -11,7 +11,6 @@ import "./LandingPage.css"
 function LandingPage() {
     return (
         <div>
-            <Header />
             <div className="lp-container w-100 d-flex flex-column align-items-center">
                 {/* Hero */}
                 <div className="d-flex flex-row justify-content-evenly landing--rows">
