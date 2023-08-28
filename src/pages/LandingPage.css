@@ -20,6 +20,7 @@
 .hero--blurb {
     display: flex;
     flex-direction: column;
+    align-items: start;
 }
 
 .hero--blurb h2 {
