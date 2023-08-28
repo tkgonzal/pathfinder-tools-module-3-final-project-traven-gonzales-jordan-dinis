@@ -160,5 +160,15 @@ em, p i {
     .hero--blurb {
         padding: 0rem;
         display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero--blurb h2 {
+        font-size: 2rem;
+    }
+
+    .hero .cta--btn {
+        font-size: 1.3rem;
     }
 }
