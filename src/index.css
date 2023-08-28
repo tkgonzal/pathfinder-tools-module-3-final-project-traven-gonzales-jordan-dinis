@@ -22,10 +22,14 @@
     --creature-link-hover-color: #bce9f0;
 }
 
+html {
+    width: 100%;
+}
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
     margin: 0;
-    width: 100vw;
+    width: 100%;
     min-width: 350px;
     background-color: var(--body-bg-color, blue);
     color: var(--body-txt-color, black);
