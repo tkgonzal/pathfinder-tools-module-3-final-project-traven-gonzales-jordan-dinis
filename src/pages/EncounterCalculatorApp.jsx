@@ -1,4 +1,3 @@
-import Header from "../components/Header.jsx"
 import InfoBar from "../components/InfoBar.jsx"
 import CalculatorForm from "../components/CalculatorForm.jsx"
 import EncounterPage from "../components/EncounterPage.jsx"

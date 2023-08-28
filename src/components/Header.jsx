@@ -11,8 +11,8 @@ import "./Header.css"
  */
 function Header() {
     return (
-        <header className="d-flex flex-column align-items-center logo">
-            <span className="logo--design d-flex align-items-center">
+        <header className="logo">
+            <span className="logo--design">
                 <img
                     className="logo--img"
                     src={logoImg}
@@ -21,7 +21,7 @@ function Header() {
                 <h1 className="logo--txt">Pathfinder Tools</h1>
             </span>
             <nav>
-                <ul className="d-flex flex-row justify-content-center gap-4 nav--links">
+                <ul className="nav--links">
                     <li>
                         <Link to={`/`}>Home</Link>
                     </li>

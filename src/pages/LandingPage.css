@@ -1,14 +1,25 @@
-.landing--rows{
+.lp-row {
     padding-top: 1rem;
     width: 90vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
 }
 
 .lp-container {
-    overflow-x: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .lp-container h2 {
     letter-spacing: .2rem;
+}
+
+.hero--blurb {
+    display: flex;
+    flex-direction: column;
 }
 
 .hero--blurb h2 {
@@ -23,8 +34,8 @@
 
 .hero--blurb {
     text-align: left;
-    width:50%;
-    padding:2rem;
+    width: 50%;
+    padding: .5rem 2rem;
 }
 
 .hero--blurb h1 {
@@ -33,12 +44,18 @@
 
 .info--blurb {
     text-align: left;
-    width:50%;
-    padding:2rem;
+    width: 50%;
+    padding: .5rem 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .info--benefits { 
     text-align: left;
+}
+
+.cta-container {
+    width: 100% !important;
 }
 
 .call-to-action {
@@ -50,11 +67,18 @@
     width: 90%;
     height: 60rem;
     border: 0.125rem solid var(--outline-color, #000);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cta--blurb {
     background-color: #ffffffd0;
     width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 2rem;
 }
 
 .cta--blurb p {

@@ -2,10 +2,14 @@
     --logo-txt-color: #f3ce95;
     --logo-bg-color: #3f0404;
 }
-header{
+header {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-nav{
+
+nav {
     width: 100%;
 }
 
@@ -19,6 +23,11 @@ nav{
     background-color: var(--logo-bg-color, red);
     /* box-shadow: -1px -7px 10px 14px rgba(var(--logo-box-shadow-rgb),1); */
     /* border-bottom: .25rem solid var(--outline, black); */
+}
+
+.logo--design {
+    display: flex;
+    align-items: center;
 }
 
 .logo--txt {
@@ -36,9 +45,12 @@ nav{
 .nav--links {
     padding: 0px;
     list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 }
 
-.nav--links li{
+.nav--links li {
     margin:none;
 }
 
