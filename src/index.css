@@ -26,9 +26,10 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
     margin: 0;
     width: 100vw;
+    min-width: 350px;
     background-color: var(--body-bg-color, blue);
     color: var(--body-txt-color, black);
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 h1, h2 {

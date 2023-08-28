@@ -11,7 +11,7 @@ function LandingPage() {
     return (
         <div className="lp-container">
             {/* Hero */}
-            <div className="lp-row">
+            <div className="lp-row hero">
                 <img className="hero--img" src={heroImg}></img>
                 <div className="hero--blurb">
                     <h2>Tools to Make Game Mastery Easy</h2>
@@ -22,7 +22,7 @@ function LandingPage() {
             </div>
 
             {/* Info/About Blurb */}
-            <div className="lp-row">
+            <div className="lp-row lp-info">
                 <div className="info--blurb">
                     <h2>What does <i>Pathfinder Tools</i> offer?</h2>
                     <p>
